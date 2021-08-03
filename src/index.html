@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+  <title>Web componente IBK con StencilJS</title>
+
+  <script type="module" src="/build/web-ibk-example.esm.js"></script>
+  <script nomodule src="/build/web-ibk-example.js"></script>
+</head>
+
+<body>
+<producto-botones></producto-botones>
+  <div class="container">
+    <div class="row">
+      <buscar-producto></buscar-producto>
+    </div>
+    <div class="row">
+      <div class="col-12 col-sm-5 col-md-4">
+        <producto-card nombre="producto1" categoria="categoria1" precio=1></producto-card>
+      </div>
+      <div class="col-12 col-sm-5 col-md-4">
+        <producto-card nombre="producto2" categoria="categoria2" precio=2></producto-card>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</body>
+
+</html>
